@@ -1,8 +1,63 @@
-h1{
+:root{
+    --primary-color:rgb(231, 240, 255);
+    --secondary-color: rgb(0, 0, 0);
+    --heading-font-family: 'Merriweather', serif;
+    --paragraf-font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3{
     font-family: 'Merriweather', serif; 
     font-weight: 700;
 }
 p{
     font-family:'Poppins', sans-serif;
     font-weight: 500;
+}
+.page{
+    text-align: center;
+}
+.first-page{
+    background: var(--primary-color);
+    
+    padding: 40px 20px 120px 20px;
+    color:black;
+}
+.my-face{
+    border-radius: 50%;
+    width: 250px;
+   /* box-shadow: 0px 4px 8px 0px rgb(255, 255, 255);
+*/}
+.first-page h3{
+    font-size: 36px;
+    font-weight: bold;
+    font-family:'Poppins', sans-serif;
+    margin:0;
+}
+.first-page h1{
+    font-size: 80px;
+    font-weight: bold;
+
+    line-height: 1.5;
+   
+}
+.first-page p{
+    font-size: 24px;
+    
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+.btn-branding{
+    border-radius: 4px;
+    color:  rgb(255, 255, 255);;
+    background: rgb(67, 147, 232);
+    line-height: 27px;
+    font-size: 22px;
+    padding: 20px 30px;
+    margin: 10px;
+}
+.projects img{
+width: 400px;
 }
