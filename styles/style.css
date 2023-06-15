@@ -125,7 +125,9 @@ img{
     font-size: 15px;
     
 }
-
+.contant-container{
+    margin-top:120px;
+}
    @media (max-width:768px) { 
     .first-page h1{font-size:50px !important;}; 
     .row p{display: block; margin: 0 40px; };
@@ -134,7 +136,8 @@ img{
    text-align: center; 
    margin-top: 0px;
 };
-.content-container h1{
+
+.contant-container h1{
     font-size: 30px;
 } 
    }
