@@ -20,7 +20,10 @@ p{
 
     
 }
-
+img{
+    display: block;
+    margin: 0 auto;
+}
 
 .page{
     text-align: center;
@@ -55,10 +58,7 @@ p{
     
 }
 
-img{
-    display: block;
-    margin: 0 auto;
-}
+
 .btn-branding{
     border-radius: 4px;
     color:  rgb(255, 255, 255);;
@@ -128,6 +128,35 @@ img{
 .contant-container{
     margin-top:120px;
 }
+li{
+    list-style: none;
+    display: inline;
+    line-height: 42px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 70%;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: all 100ms ease-in-out;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    padding: 20px 0;
+}
+.logo {
+    max-height: 40px;
+  }
+  nav li.active a, nav a:hover{
+    color:rgb(61, 119, 200);
+  }
    @media (max-width:768px) { 
     .first-page h1{font-size:50px !important;}; 
     .row p{display: block; margin: 0 40px; };
