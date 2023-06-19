@@ -8,9 +8,12 @@
 html, body {
     overflow-x: hidden;
 }
-h1,h2,h3{
+h1,h2,h3,h4{
     font-family: 'Merriweather', serif; 
     font-weight: 700;
+}
+h4{
+    font-size: 48px;
 }
 p{
     font-family:'Poppins', sans-serif;
@@ -23,6 +26,51 @@ p{
 img{
     display: block;
     margin: 0 auto;
+}
+footer{
+    margin-top: 80px;
+}
+footer .email-link{
+    display: block;
+    margin: 60px 0 30px 0;
+}
+footer .email-link{
+    text-decoration: none;
+color:black;
+font-size: 24px;
+text-align: center;
+}
+footer .email-link:hover{
+    color:rgb(67, 147, 232);
+}
+footer .social-links a{
+    margin: 0 20px;
+    color: rgb(231, 201, 254);
+    background-color: aqua;
+    padding:10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 200ms ease-in-out;
+}
+footer .social-links a:hover{
+    color:white;
+background:rgb(67, 147, 232);
+}
+footer .contact-box{
+    background-color: rgb(245, 234, 255, 0.3);
+    padding: 30px 120px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+footer .contact-box p{
+    margin: 0;
+    
+}
+footer .contact-box a{
+    padding: 10px 20px;
+    font-size: 20px;
+  
 }
 
 .page{
@@ -158,17 +206,24 @@ nav {
     color:rgb(61, 119, 200);
   }
    @media (max-width:768px) { 
-    .first-page h1{font-size:50px !important;}; 
-    .row p{display: block; margin: 0 40px; };
+    .first-page h1{font-size:50px !important;}
+    .row p{display: block; margin: 0 40px; }
 .content-container{
 
    text-align: center; 
    margin-top: 0px;
-};
+}
 
 .contant-container h1{
     font-size: 30px;
 } 
+footer .contact-box{
+    padding:30px;
+}
+h4{
+font-size: 26px;
+}
+footer .contact-box a{font-size: 16px;}
    }
     /*
 *
