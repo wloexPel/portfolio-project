@@ -205,6 +205,9 @@ nav {
   nav li.active a, nav a:hover{
     color:rgb(61, 119, 200);
   }
+  .footer-github{
+    font-size: 14px;
+  }
    @media (max-width:768px) { 
     .first-page h1{font-size:50px !important;}
     .row p{display: block; margin: 0 40px; }
