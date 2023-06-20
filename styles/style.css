@@ -45,8 +45,8 @@ footer .email-link:hover{
 }
 footer .social-links a{
     margin: 0 20px;
-    color: rgb(231, 201, 254);
-    background-color: aqua;
+    color: rgb(44, 139, 207);
+    background-color: rgb(187, 255, 255);
     padding:10px 14px;
     font-size: 18px;
     border-radius: 50%;
@@ -142,7 +142,8 @@ footer .contact-box a{
         margin: 10px;
     }
     .content-container .btn-branding{
-        background:rgb(30, 214, 255);
+        
+   
         font-size: 20px; 
         margin: 0
         ;
@@ -160,7 +161,7 @@ footer .contact-box a{
 .content h1{
     text-align: center;
     
-    font-size: 60px;
+    font-size: 48px;
 }
 .content h3{
     font-size: 24px;
@@ -170,7 +171,7 @@ footer .contact-box a{
 }
 .content p{
     
-    font-size: 15px;
+    font-size: 20px;
     
 }
 .contant-container{
@@ -227,7 +228,25 @@ h4{
 font-size: 26px;
 }
 footer .contact-box a{font-size: 16px;}
-   }
+.content p{
+    
+    font-size: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.content-container{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+}
+
+.content-container img{
+    margin-top: 20px;
+
+}
+}
+   
+  
     /*
 *
 }*/
